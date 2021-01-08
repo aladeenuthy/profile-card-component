@@ -1,0 +1,79 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700
+background-position: -285.7px -507.9px, calc(100% + 376px) calc(100% + 592px);
+*/
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box!important;
+}
+body{
+ background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+ font-family: 'Kumbh Sans', sans-serif;
+
+ background-repeat: no-repeat;
+background-position: -32.57rem -50.79rem, right -36.6rem bottom -52.2rem;
+
+ background-color: hsl(185, 75%, 39%)!important;
+}
+.profile-card{
+ width: 90%;
+ margin: 0 auto;
+ margin-top: 23vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.background-top{
+ height: 150px;
+ background-image: url("images/bg-pattern-card.svg");
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+}
+.t{
+ border: #fff solid 2px;
+ border-radius: 50%;
+ margin-top: -50px;
+}
+
+.bottom{
+ border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+}
+
+@media (min-width: 576px) {
+	.profile-card{
+		width: 400px;
+	}
+	body{
+		background-position: -300.7px -507.9px, calc(100% + 376px) calc(100% + 802px);
+	}
+}
